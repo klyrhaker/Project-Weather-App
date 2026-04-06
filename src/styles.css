@@ -1,0 +1,47 @@
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.skeleton {
+  background-color: #ccc;
+  border-radius: 4px;
+  color: transparent;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+h1.skeleton {
+  width: 200px;
+  height: 32px;
+  margin-bottom: 8px;
+}
+
+img.skeleton {
+  width: 80px;
+  height: 80px;
+  display: block;
+}
+
+p.skeleton {
+  width: 120px;
+  height: 20px;
+  margin-bottom: 8px;
+}
+
+div.skeleton {
+  width: 150px;
+  height: 20px;
+  margin-bottom: 8px;
+}
+
+button.skeleton {
+  width: 60px;
+  height: 28px;
+}
